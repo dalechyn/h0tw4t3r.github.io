@@ -49,6 +49,9 @@
   .post {
     .post-title {
       margin-bottom: 0.75em;
+      .title {
+        .title-link { font-weight: 900 }
+      }
     }
 
     .post-meta {
