@@ -10,14 +10,14 @@ ID: 7a27be1d5746668a2101945fc045f50f
 ---
 
 ### 👋 Greetings Reader!
-In this post, I will cover my personal MEV setup experience and what I needed for successfull MEV Extraction.
+In this post, I will cover my personal MEV setup experience and what I needed for successful MEV Extraction.
 
-Before jumping right in the forest, you need to make sure your backpack is filled with minimum knowledge of MEV, and that you have your [MEV Backpack](/posts/mev-backpack) on!
+Before jumping right into the forest, you need to make sure your backpack is filled with minimum knowledge of MEV, and that you have your [MEV Backpack](/posts/mev-backpack) on!
 
 ## 🤔 My first MEV encounter
-My first touch to MEV was the discover of [**Ethermine's arbitraging bot**](https://etherscan.io/address/0x5aa3393e361c2eb342408559309b3e873cd876d6).
+My first touch with MEV was the discovery of [**Ethermine's arbitraging bot**](https://etherscan.io/address/0x5aa3393e361c2eb342408559309b3e873cd876d6).
 
-He backruns (put's his transaction right after one is landed) public DEX trades and equalizes pools in which the trade occured. Kind of like an on-chain sanitizer so to say.
+He backruns (puts his transaction right after one is landed) public DEX trades and equalizes pools in which the trade occurred. Kind of like an on-chain sanitizer so to say.
 
 !["Ethermine's bot"](/images/mev-1/ethermine.png)
 
@@ -26,7 +26,7 @@ Not bad, not bad. Actually, at the time I discovered this bot, he had around **1
 I also did not know at the time, that this bot is ***Ethermine's***, lol.
 
 ## 🕵️‍ The Research
-I started from reading the transaction data and tried to understand what bot passes.
+I started by reading the transaction data and tried to understand what kind of data the bot passed to the contract.
 
 Let's check [**this**](https://etherscan.io/tx/0x8e060ca91df454f2bb24f8348853a97859ae580234a98ce90c16c158825d77fb) transaction as an example:
 
@@ -48,8 +48,7 @@ Let's see the tx data (for better view the data is split by slots – 32 bytes (
 0000000000000000000000000000000000000000000000000000000000000000 - Type of the second pool (0=UniswapV3, 1=UniswapV2)
 ```
 
-Wasn't that hard you may say? I wish it wasn't back then.
-> Bro rly?
+*"Easy Peasy"* you may say. I wish it was back then.
 
 We can clearly see that bot does not pass WETH9 address, which means that he trades to only get profits in ETH.
 Also we can see that the actual swapped amount is a bit different, which means that the total input amount is being recalculated when the transaction is executing.
@@ -59,6 +58,6 @@ This bot attracted my interest, as it does approximately 100-300 txs per day, ea
 
 Yet then, I decided to explore MEV opportunities.
 
-In future post I'll cover my plan at the time, with some pseudo-code alpha.
+In the future post I'll cover my plan at the time, with some pseudo-code alpha.
 
 If you want to see more content like this, subscribe to my twitter [0xh0tw4t3r](https://twitter.com/0xh0tw4t3r).

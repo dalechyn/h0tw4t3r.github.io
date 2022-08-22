@@ -10,14 +10,14 @@ date: 2022-08-21T19:34:08+03:00
 ---
 
 ### 👋 Greatings Reader!
-Interested in MEV but have no clue where to start? – **I will help you gathering the things!**
+Interested in MEV but have no clue where to start? – **I will help you gather the things!**
 
 ## ⛓ Ethereum
-First off, you of course have to know Ethereum basics, a wallet, and an some experience with Smart-Contract development.
+First off, you of course have to know Ethereum basics, a wallet, and some experience with Smart-Contract development.
 
 I would absolutely recommend you [**LearnWeb3.io**](https://learnweb3.io/).
 
-I checked it out personally, and I can assure you, as soon as you finish **ALL** levels, you can continue with your journey.
+I checked it out personally, and I can assure you, that as soon as you finish **ALL** levels, you can continue with your journey.
 
 ## 🔨 Toolings
 - [Hardhat](https://hardhat.org/)
@@ -26,7 +26,7 @@ I checked it out personally, and I can assure you, as soon as you finish **ALL**
 - [Foundry (optional)](https://getfoundry.sh/)
 
 ## 🤔 That's cool, but where is the start, REALLY?
-In fact, it depends on what kind of MEV are you willing to extract.
+It depends on what kind of MEV are you willing to extract.
 There are:
 - Sandwiches
 - Liquidations
@@ -39,8 +39,8 @@ A great start for each of those could be:
 - Liquidations – https://github.com/dydxprotocol/liquidator
 
 
-At the while, an interesting and funny posts can be found at https://www.libevm.com/
+In the meantime, interesting and funny posts regarding MEV and ETH as a whole can be found at https://www.libevm.com/
 
-__P.S: If you want to get really quick, I'd advise to learn Rust.__
+__P.S: If you want to get really quick, I'd advise learning Rust.__
 
 If you want to see more content like this, subscribe to my twitter [0xh0tw4t3r](https://twitter.com/0xh0tw4t3r).
