@@ -13,11 +13,11 @@ date: 2022-08-21T19:34:08+03:00
 Interested in MEV but have no clue where to start? – **I will help you gather the things!**
 
 ## ⛓ Ethereum
-First off, you of course have to know Ethereum basics, a wallet, and some experience with Smart-Contract development.
+First of all, you have to know Ethereum basics, have a wallet, and have some experience with Smart-Contract development.
 
 I would absolutely recommend you [**LearnWeb3.io**](https://learnweb3.io/).
 
-I checked it out personally, and I can assure you, that as soon as you finish **ALL** levels, you can continue with your journey.
+I checked it out personally, and I can assure you, that as soon as you finish **ALL** levels, you can continue your journey.
 
 ## 🔨 Toolings
 - [Hardhat](https://hardhat.org/)
@@ -27,7 +27,7 @@ I checked it out personally, and I can assure you, that as soon as you finish **
 
 ## 🤔 That's cool, but where is the start, REALLY?
 It depends on what kind of MEV are you willing to extract.
-There are:
+Those are:
 - Sandwiches
 - Liquidations
 - Arbitrage
