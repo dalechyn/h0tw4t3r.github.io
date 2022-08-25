@@ -9,7 +9,7 @@ pygmentsCodeFences = true
 pygmentsCodeFencesGuessSyntax = true
 enableEmoji = true
 # Enable Disqus comments
-# disqusShortname = "yourdiscussshortname"
+disqusShortname = "h0tw4t3r-xyz"
 
 [params]
 author = "Vladyslav Dalechyn | h0tw4t3r.eth"
@@ -67,7 +67,7 @@ customJS = []
 
 # If you want to use Google Tag Manager(https://analytics.google.com/) for analytics, add this section
 # [params.googleTagManager]
-# id = "gid"
+id = "G-WEWEWWDN0M"
 
 # If you want to use Application Insights(https://azure.com/) for analytics, add this section
 # [params.applicationInsights]
