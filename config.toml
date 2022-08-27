@@ -3,6 +3,7 @@ title = "h0tw4t3r.eth"
 theme = "hugo-coder"
 languageCode = "en"
 defaultContentLanguage = "en"
+katex= true
 paginate = 20
 pygmentsStyle = "bw"
 pygmentsCodeFences = true
