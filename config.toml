@@ -126,6 +126,12 @@ icon = "fa fa-2x fa-linkedin"
 weight = 4
 url = "https://www.linkedin.com/in/vladyslav-dalechyn/"
 
+[[params.social]]
+name = "Book a call"
+icon = "fa fa-2x fa-phone"
+weight = 5
+url = "https://calendly.com/dalechyn/"
+
 [languages.en]
 languageName = ":uk:"
 
@@ -138,6 +144,11 @@ languageName = ":uk:"
 name = "Blog"
 weight = 2
 url = "posts/"
+
+[[languages.en.menu.main]]
+name = "CV"
+weight = 3
+url = "https://drive.google.com/file/d/1nEtJScmDGqo0g_Lx6LsEhjWbX441MIOb/view?usp=sharing"
 
 #[[languages.en.menu.main]]
 #name = "Projects"
